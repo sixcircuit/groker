@@ -1,0 +1,11 @@
+*.pyc
+.*.js
+.*.tjs.*.cache
+
+config.js
+.vagrant
+.DS_Store
+
+keys/
+ignore/
+node_modules

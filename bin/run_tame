@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+// we want to handle exceptions ourselves
+var _ = require('dry-underscore');
+require('tamejs').register({catchExceptions : false});
+require(_.path.resolve(process.argv[2])).run();
+

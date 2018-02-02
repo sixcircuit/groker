@@ -1,0 +1,24 @@
+
+var _ = require('dry-underscore');
+
+// var blah = require('../lib/blah.tjs');
+
+function error_handler(err){ throw(err); }
+
+exports.run = function(){
+    var config = {
+        user_name: process.argv[3],
+        password: process.argv[4]
+    };
+
+    if(!config.user_name || !config.password){ 
+        _.stderr("usage: run <user_name> <password>");
+        return process.exit(-1);
+    }
+
+    await{ setTimeout(defer(), 1000); }
+
+    _.p("hello world");
+};
+
+

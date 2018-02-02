@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "name": "groker",
+    "version": "1.0.0",
+    "description": "groks data. makes a table",
+    "main": "./lib/index.js",
+    "author": "Kendrick Taylor <kendrick@circuitsix.com>",
+    "repository": "https://github.com/sixcircuit/groker.git",
+    "dependencies": {
+        "tamejs": "0.4.14",
+        "dry-underscore": ""
+    },
+    "devDependencies": {
+        "dry-test": "0.1.6"
+    }
+}
