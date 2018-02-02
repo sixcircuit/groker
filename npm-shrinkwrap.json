@@ -2,6 +2,11 @@
   "name": "groker",
   "version": "1.0.0",
   "dependencies": {
+    "tamejs": {
+      "version": "0.4.14",
+      "from": "tamejs@0.4.14",
+      "resolved": "https://registry.npmjs.org/tamejs/-/tamejs-0.4.14.tgz"
+    },
     "dry-underscore": {
       "version": "0.23.1",
       "from": "dry-underscore@0.23.1",
@@ -245,11 +250,6 @@
           "resolved": "https://registry.npmjs.org/deep-diff/-/deep-diff-0.3.3.tgz"
         }
       }
-    },
-    "tamejs": {
-      "version": "0.4.14",
-      "from": "tamejs@0.4.14",
-      "resolved": "https://registry.npmjs.org/tamejs/-/tamejs-0.4.14.tgz"
     }
   }
 }
